@@ -2,19 +2,24 @@ package com.java;
 
 interface InterfaceA{
     default void show(){
-        System.out.println ("Inter");
+        System.out.println ("Inter A");
     }
 }
-
-public class DefaultMethodsEx implements InterfaceA {
-
-  /*  @Override
-    public void show(){
-        System.out.println ("Class");
-    }*/
+interface InterfaceB{
+    default void show(){
+        System.out.println ("Inter B");
+    }
+}
+public class DefaultMethodsEx implements InterfaceA, InterfaceB {
 
     public static void main(String[] args) {
-        InterfaceA interfaceA = new DefaultMethodsEx();
-        interfaceA.show ();
+        DefaultMethodsEx defaultMethodsEx = new DefaultMethodsEx();
+        defaultMethodsEx.show ();
+    }
+
+    @Override
+    public void show() {
+        InterfaceA.super.show ();
+        InterfaceB.super.show ();
     }
 }

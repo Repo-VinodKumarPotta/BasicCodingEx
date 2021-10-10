@@ -11,6 +11,7 @@ class QuickSort
     of pivot */
     int partition(int arr[], int low, int high)
     {
+        System.out.println ("Pivot :: " + arr[high]);
         int pivot = arr[high];
         int i = (low-1); // index of smaller element
         for (int j=low; j<high; j++)
@@ -45,6 +46,8 @@ class QuickSort
     {
         if (low < high)
         {
+            System.out.println ("sort() :: " + high + "  " + low + "  " + arr[high]);
+
 			/* pi is partitioning index, arr[pi] is
 			now at right place */
             int pi = partition(arr, low, high);
@@ -53,6 +56,9 @@ class QuickSort
             // partition and after partition
             sort(arr, low, pi-1);
             sort(arr, pi+1, high);
+        }
+        for (int i=0; i<=arr.length-1;i++) {
+            System.out.println ("sort() array :: " + arr[i]);
         }
     }
 
@@ -78,5 +84,4 @@ class QuickSort
         printArray(arr);
     }
 }
-/*This code is contributed by Rajat Mishra */
 
