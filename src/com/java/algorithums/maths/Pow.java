@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 // POWER (exponentials) Examples (a^b)
 public class Pow {

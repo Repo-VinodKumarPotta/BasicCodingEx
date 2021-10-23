@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /**
  * The trinomial triangle is a variation of Pascal’s triangle. The difference

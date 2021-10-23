@@ -4,7 +4,7 @@
  *          Since, the sum of the digits is equal to the cube root of the entered number;
  *          it is a Dudeney Number.
  */
-package Maths;
+package com.java.algorithums.maths;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /**
  * A number is said to be an Automorphic, if it is present in the last digit(s) of its square.

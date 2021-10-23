@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** @author https://github.com/shellhub/ */
 public class GCDRecursion {

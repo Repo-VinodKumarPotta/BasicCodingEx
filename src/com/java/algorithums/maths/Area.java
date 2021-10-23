@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** Find the area of various geometric shapes */
 public class Area {

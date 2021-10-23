@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 public class PalindromeNumber {
   public static void main(String[] args) {

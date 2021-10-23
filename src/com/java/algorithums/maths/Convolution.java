@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /**
  * Class for linear convolution of two discrete signals

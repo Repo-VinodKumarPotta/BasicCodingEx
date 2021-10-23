@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /**
  * In number theory, a perfect number is a positive integer that is equal to the sum of its positive

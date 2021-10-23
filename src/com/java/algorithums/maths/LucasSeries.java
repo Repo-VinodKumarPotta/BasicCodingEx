@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** https://en.wikipedia.org/wiki/Lucas_number */
 public class LucasSeries {

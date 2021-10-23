@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** Calculate average of a list of numbers */
 public class Average {

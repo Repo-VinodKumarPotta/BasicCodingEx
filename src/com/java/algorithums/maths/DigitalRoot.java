@@ -44,7 +44,7 @@
 
 
 
-package Maths;
+package com.java.algorithums.maths;
 
 import java.util.*;
 import java.io.*;

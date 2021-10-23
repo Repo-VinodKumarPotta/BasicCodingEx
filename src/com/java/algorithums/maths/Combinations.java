@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** @see <a href="https://en.wikipedia.org/wiki/Combination">Combination</a> */
 public class Combinations {

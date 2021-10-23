@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** Find the number of digits in a number. */
 public class NumberOfDigits {

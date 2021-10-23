@@ -15,7 +15,7 @@
 
 
 
-package Maths;
+package com.java.algorithums.maths;
 import java.util.*;
 class NthUglyNumber {
     /* Function to get the nth ugly number*/

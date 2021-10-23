@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /**
  * In number theory, the aliquot sum s(n) of a positive integer n is the sum of all proper divisors

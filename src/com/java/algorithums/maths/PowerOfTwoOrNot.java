@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** A utility to check if a given number is power of two or not. For example 8,16 etc. */
 public class PowerOfTwoOrNot {

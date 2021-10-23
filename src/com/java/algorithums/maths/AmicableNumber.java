@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /**
  * Amicable numbers are two different numbers so related that the sum of the proper divisors of each

@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 public class SumOfDigits {
   public static void main(String[] args) {

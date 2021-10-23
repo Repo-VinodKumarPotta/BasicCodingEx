@@ -1,6 +1,7 @@
-package Maths;
+package com.java.algorithums.maths;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
@@ -27,15 +28,15 @@ public class FibonacciJavaStreams {
 
         final List<BigDecimal> results = Stream.iterate(
                         index,
-                        x -> x.compareTo(BigDecimal.ZERO) > 0,
+                        //x -> x.compareTo(BigDecimal.ZERO) > 0,
                         x -> x.subtract(BigDecimal.ONE)
                 )
                 .reduce(
-                        List.of(),
+                        Arrays.asList (),
                         (list, current) ->
                                 list.isEmpty() || list.size() < 2
-                                        ? List.of(BigDecimal.ZERO, BigDecimal.ONE)
-                                        : List.of(list.get(1), list.get(0).add(list.get(1))),
+                                        ? Arrays.asList(BigDecimal.ZERO, BigDecimal.ONE)
+                                        : Arrays.asList(list.get(1), list.get(0).add(list.get(1))),
                         (list1, list2) -> list1
                 );
 
@@ -53,7 +54,7 @@ public class FibonacciJavaStreams {
     public static void main(final String[] args) {
         {
             final Optional<BigDecimal> result = calculate(new BigDecimal(-1));
-            assertThat(result.isEmpty(), true);
+            assertThat(result.isPresent (), true);
         }
         {
             final Optional<BigDecimal> result = calculate(BigDecimal.ZERO);

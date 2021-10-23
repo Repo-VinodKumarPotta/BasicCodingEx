@@ -1,4 +1,4 @@
-package Maths;
+package com.java.algorithums.maths;
 
 /** https://en.wikipedia.org/wiki/Perfect_square */
 public class PerfectSquare {
