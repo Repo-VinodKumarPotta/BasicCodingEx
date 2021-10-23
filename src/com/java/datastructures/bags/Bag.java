@@ -1,4 +1,4 @@
-package com.java.datastructures.Bags;
+package com.java.datastructures.bags;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

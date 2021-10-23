@@ -1,4 +1,4 @@
-package com.java.algorithums.Strings;
+package com.java.algorithums.strings;
 
 import java.util.List;
 import java.util.Arrays;

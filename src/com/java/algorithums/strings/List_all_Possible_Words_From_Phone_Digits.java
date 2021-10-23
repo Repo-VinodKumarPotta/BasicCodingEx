@@ -1,4 +1,4 @@
-package com.java.algorithums.Strings;
+package com.java.algorithums.strings;
 import java.util.*;
 
 public class List_all_Possible_Words_From_Phone_Digits {

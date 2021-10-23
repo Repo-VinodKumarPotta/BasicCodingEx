@@ -1,4 +1,4 @@
-package com.java.algorithums.Strings;
+package com.java.algorithums.strings;
 
 /**
  * Alphabetical order is a system whereby character strings are placed in order based on the

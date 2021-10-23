@@ -1,4 +1,4 @@
-package com.java.algorithums.Strings;
+package com.java.algorithums.strings;
 
 /** Wikipedia: https://en.wikipedia.org/wiki/Pangram */
 public class Pangram {
