@@ -1,5 +1,6 @@
 package com.java.designpatterens.singleton;
 
+
 public class Singleton {
 
     private static Singleton singleton = null;
